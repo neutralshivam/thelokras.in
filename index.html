@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheLokras - Coming Soon</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --brown: #33221A;
+            --yellow: #FEE357;
+            --light-yellow: #FFF8C7;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: var(--brown);
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--yellow);
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            padding: 30px;
+        }
+
+        .logo {
+            width: 220px;
+            max-width: 80%;
+            margin-bottom: 30px;
+            filter: drop-shadow(0px 10px 25px rgba(254, 227, 87, 0.15));
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: var(--light-yellow);
+            margin-bottom: 35px;
+        }
+
+        .coming-soon {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            color: var(--light-yellow);
+            line-height: 1.8;
+            font-size: 1rem;
+            max-width: 650px;
+            margin: 0 auto 40px;
+        }
+
+        .social {
+            display: inline-block;
+            padding: 14px 28px;
+            background: var(--yellow);
+            color: var(--brown);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .social:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(254, 227, 87, 0.3);
+        }
+
+        .circle1,
+        .circle2 {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(254, 227, 87, 0.05);
+        }
+
+        .circle1 {
+            width: 400px;
+            height: 400px;
+            top: -150px;
+            left: -150px;
+        }
+
+        .circle2 {
+            width: 500px;
+            height: 500px;
+            bottom: -200px;
+            right: -200px;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: rgba(255, 248, 199, 0.7);
+        }
+
+        @media(max-width:768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .coming-soon {
+                font-size: 1.5rem;
+            }
+
+            .description {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+
+    <div class="container">
+
+        <!-- Replace logo.png with your logo file -->
+        <img src="logo.jpg" alt="TheLokras Logo" class="logo">
+
+        <h1>TheLokras</h1>
+
+        <p class="tagline">
+            Stories • Documentaries • Ground Reports • Interviews
+        </p>
+
+        <div class="coming-soon">
+            🚧 Website Under Construction
+        </div>
+
+        <p class="description">
+            We are building a dedicated platform for impactful stories,
+            documentaries, exclusive interviews, and insightful content from
+            across India. Stay tuned — something exciting is on the way.
+        </p>
+
+        <a href="https://youtube.com/@TheLokras" class="social">
+            Visit YouTube Channel
+        </a>
+
+        <footer>
+            © 2026 TheLokras. All Rights Reserved.
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
